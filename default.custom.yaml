@@ -1,11 +1,23 @@
-customization:
-  distribution_code_name: Weasel
-  distribution_version: 0.11.1
-  generator: "Rime::SwitcherSettings"
-  modified_time: "Mon Sep  3 09:49:38 2018"
-  rime_version: 1.3.0
+# default.custom.yaml
+# save it to:
+#   ~/.config/ibus/rime  (linux)
+#   ~/Library/Rime       (macos)
+#   %APPDATA%\Rime       (windows)
+
 patch:
-  "menu/page_size": 9
   schema_list:
-    - {schema: luna_pinyin_simp}
-    - {schema: easy_en}
+    - schema: luna_pinyin_simp          # 朙月拼音
+    - schema: easy_en
+
+  "ascii_composer/switch_key":
+    Caps_Lock: noop
+    Shift_L: commit_code # 左Shift上屏编码并切换为英文状态，inline_ascii 设[>
+    Shift_R: inline_ascii # 不上屏，字符转变为英文输入，按Enter键英文字符上[>
+
+  "punctuator/full_shape":
+    "/": "/"
+  "punctuator/half_shape":
+    "/": "/"
+
+  "menu/page_size": 7
+

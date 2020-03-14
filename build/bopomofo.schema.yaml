@@ -1,9 +1,9 @@
 __build_info:
-  rime_version: 1.3.0
+  rime_version: 1.5.3
   timestamps:
     bopomofo.custom: 0
-    bopomofo.schema: 1524739780
-    default: 1524739784
+    bopomofo.schema: 1526362370
+    default: 1526362370
     default.custom: 0
 custom_phrase:
   db_class: stabledb

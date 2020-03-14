@@ -1,7 +1,6 @@
 distribution_code_name: "fcitx-rime"
 distribution_name: Rime
 distribution_version: 0.2.3
-install_time: "Mon Sep  3 13:27:56 2018"
-installation_id: "2ef22222-1a18-4bf3-a41b-991cdebcd24c"
+install_time: "Sat Mar 14 13:03:15 2020"
+installation_id: "44d97ba5-49cf-432f-b0b3-20f24448c212"  # 可以自定义 id 用来区分不同的电脑上的配置
 rime_version: 1.5.3
-update_time: "Sat Mar 14 02:50:52 2020"
